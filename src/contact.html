@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+<body class="font-main">
+	<header class="bg-esa-gray-dark">
+		<!-- desktop -->
+		<div class="h-[114px] xl:container px-8 m-auto justify-between items-center text-lg text-white font-bold uppercase hidden lg:flex">
+			<img class="logo h-16" src="/dist/img/logo long.svg" alt="">
+			<nav class="space-x-4 xl:space-x-12 ">
+				<a class="hover:text-esa-orange" href="index.html">Home</a>
+				<a class="hover:text-esa-orange" href="training.html">Training & Services</a>
+				<a class="hover:text-esa-orange" href="about.html">About</a>
+				<a class="text-esa-orange" href="contact.html">Contact</a>
+			</nav>
+			<a class="inline-block bg-gradient-to-tr from-esa-orange to-esa-pink hover:from-esa-blue hover:to-esa-purple text-white font-semibold text-lg py-4 px-16 rounded-full hover:shadow-xl transition-all duration-2000" href="signup.html">Signup</a>
+		</div>
+		<!-- Mobile -->
+		<div class="lg:hidden">
+			<!-- Menu icon -->
+			<div class="flex py-4 px-8 items-center justify-between">
+				<img class="logo h-16" src="/dist/img/logo long.svg" alt="">
+				<div class="lg:hidden items-center">
+					<button class="outline-none mobile-menu-button">
+						<svg
+							class="w-12 h-12 text-esa-orange"
+							x-show="!showMenu"
+							fill="none"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+						>
+						<path d="M4 6h16M4 12h16M4 18h16"></path>
+						</svg>
+					</button>
+				</div>
+			</div>
+			<!-- Mobile menu -->
+			<div class="hidden mobile-menu">
+				<ul class="text-white group">
+					<li><a href="index.html" class="block text-lg px-8 py-4 text-white hover:bg-esa-orange font-semibold">Home</a></li>
+					<li><a href="training.html" class="block text-lg px-8 py-4 duration-300">Training & Services</a></li>
+					<li><a href="about.html" class="block text-lg px-8 py-4 duration-300">About</a></li>
+					<li class="active"><a href="contact.html" class="block text-lg px-8 py-4 duration-300">Contact</a></li>
+					<li><a href="signup.html" class="block text-lg px-8 py-4 duration-300">Signup</a></li>
+				</ul>
+			</div>
+		</div>
+	  </header>
+  <!-- Hero -->
+  <section class="px-8 xl:container m-auto flex flex-col-reverse lg:flex-row justify-between items-center py-16">
+	<div class="lg:w-1/2 space-y-12">
+		<h1 class="text-5xl leading-snug font-black text-esa-purple">Want to step it up in the Sales Industry?</h1>
+		<p class="text-2xl text-esa-purple">There are different ways to enhance and improve sales skills and can generate profit. With Evolution Sales Academy, you’re not just getting the right tools—you’re getting a partner dedicated to boosting your confidence, strengthening your skills, and supporting you every step of the way.</p>
+		<!-- <a class="inline-block bg-esa-purple text-white font-semibold text-lg py-4 px-16 rounded-full hover:shadow-xl" href="training.html">See Courses</a> -->
+	</div>
+	<div class="lg:w-3/5">
+		<lottie-player src="/dist/lottie/45056-contact-us.json" background="transparent"  speed="1"  style="width: auto; height: auto;" loop autoplay></lottie-player>
+	</div>
+  </section>
+  <!-- Lets talk -->
+  <section class="bg-esa-gray-light py-16">
+	<div class="px-8 xl:container m-auto flex flex-col md:flex-row justify-center items-center md:space-x-16">
+		<div class="md:w-1/2 space-y-8 text-esa-purple">
+			<lottie-player src="/dist/lottie/67766-contacte-us-with-yellow.json" background="transparent"  speed="1"  style="width: auto; height: auto;" loop autoplay></lottie-player>
+		</div>
+		<div class="md:w-1/2 space-y-8 text-esa-purple">
+			<h1 class="text-[42px] leading-snug font-black">Let’s Talk!</h1>
+			<p class="text-lg leading-loose">We get set up success from day one, from hiring to trainings. We have well connected software connections to help industries from the best in the business.</p>
+            <div class="">
+                <div>
+                  <!-- <span class="uppercase text-sm text-esa-purple font-bold">Full Name</span> -->
+                  <input class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                    type="text" placeholder="Full Name">
+                </div>
+                <div class="mt-8">
+                  <!-- <span class="uppercase text-sm text-esa-purple font-bold">Email</span> -->
+                  <input class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                    type="text" placeholder="Email">
+                </div>
+                <div class="mt-8">
+                  <!-- <span class="uppercase text-sm text-esa-purple font-bold">Message</span> -->
+                  <textarea
+                    class="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" placeholder="Message"></textarea>
+                </div>
+                <div class="mt-8">
+                  <button
+                    class="uppercase text-sm font-bold tracking-wide bg-esa-purple text-white p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
+                    Send Message
+                  </button>
+                </div>
+              </div>
+		</div>
+	</div>
+  </section>
+  <footer class="bg-esa-gray-dark">
+	<div class="px-8 xl:container py-16 m-auto grid grid-cols-1 lg:grid-cols-4">
+		<img class="logo h-40" src="/dist/img/logo square.svg" alt="">
+		<div>
+			<h3 class="text-3xl font-bold text-esa-pink mb-8">Quicklinks</h3>
+			<nav class="text-lg text-white flex flex-col space-y-2">
+				<a href="index.html">Home</a>
+				<a href="training.html">Training & Services</a>
+				<a href="about.html">About</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+		</div>
+		<div>
+			<h3 class="text-3xl font-bold text-esa-pink mb-8">Contact Us</h3>
+			<nav class="text-lg text-white flex flex-col space-y-2">
+				<a href="tel:(+55) 254. 254. 254">(+55) 254. 254. 254				</a>
+				<a href="mailto:Info@evolutionsales.com">Info@evolutionsales.com</a>
+				<p>Ontario Canada</p>
+			</nav>
+		</div>
+		<div>
+			<h3 class="text-3xl font-bold text-esa-pink mb-8">Subscribe to Our Sales Academy Newsletter</h3>
+			<div class="relative">
+				<div class="absolute top-4 left-3">
+					<i class="fa fa-search text-gray-400 z-20 hover:text-gray-500"></i>
+				</div>
+				<input type="email" class="h-[58px] w-full pl-10 pr-20 rounded-full z-0 focus:shadow focus:outline-none" placeholder="Email">
+				<div class="absolute top-[1px] right-[1px]"> 
+					<button class="h-14 px-10 text-white rounded-full bg-esa-pink hover:bg-esa-purple">Submit</button> 
+				</div>
+			</div>
+		</div>
+	</div>
+  </footer>
+  <div class="bg-esa-black text-white">
+	  <footer class="px-8 xl:container m-auto py-3"><p>All Right Reserved | Evolution Sales Academy 2022</p></footer>
+  </div>
+</body>
+<script src="/dist/script.js"></script>
+</html>

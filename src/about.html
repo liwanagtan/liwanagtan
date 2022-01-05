@@ -1,0 +1,215 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+<body class="font-main">
+    <header class="bg-esa-gray-dark">
+        <!-- desktop -->
+        <div class="h-[114px] xl:container px-8 m-auto justify-between items-center text-lg text-white font-bold uppercase hidden lg:flex">
+            <img class="logo h-16" src="/dist/img/logo long.svg" alt="">
+            <nav class="space-x-4 xl:space-x-12 ">
+                <a class="hover:text-esa-orange" href="index.html">Home</a>
+                <a class="hover:text-esa-orange" href="training.html">Training & Services</a>
+                <a class="text-esa-orange" href="about.html">About</a>
+                <a class="hover:text-esa-orange" href="contact.html">Contact</a>
+            </nav>
+            <a class="inline-block bg-gradient-to-tr from-esa-orange to-esa-pink hover:from-esa-blue hover:to-esa-purple text-white font-semibold text-lg py-4 px-16 rounded-full hover:shadow-xl transition-all duration-2000" href="signup.html">Signup</a>
+        </div>
+        <!-- Mobile -->
+        <div class="lg:hidden">
+            <!-- Menu icon -->
+            <div class="flex py-4 px-8 items-center justify-between">
+                <img class="logo h-16" src="/dist/img/logo long.svg" alt="">
+                <div class="lg:hidden items-center">
+                    <button class="outline-none mobile-menu-button">
+                        <svg
+                            class="w-12 h-12 text-esa-orange"
+                            x-show="!showMenu"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                        >
+                        <path d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile menu -->
+            <div class="hidden mobile-menu">
+                <ul class="text-white group">
+                    <li><a href="index.html" class="block text-lg px-8 py-4 text-white hover:bg-esa-orange font-semibold">Home</a></li>
+                    <li><a href="training.html" class="block text-lg px-8 py-4 duration-300">Training & Services</a></li>
+                    <li class="active"><a href="about.html" class="block text-lg px-8 py-4 duration-300">About</a></li>
+                    <li><a href="contact.html" class="block text-lg px-8 py-4 duration-300">Contact</a></li>
+                    <li><a href="signup.html" class="block text-lg px-8 py-4 duration-300">Signup</a></li>
+                </ul>
+            </div>
+        </div>
+      </header>
+  <!-- Hero -->
+  <section class="px-8 xl:container m-auto flex flex-col-reverse xl:flex-row justify-between items-center py-16">
+	<div class="xl:w-2/5 space-y-12">
+		<h1 class="text-5xl leading-snug font-black text-esa-purple">A Launchpad for entrepreneurs.</h1>
+		<p class="text-2xl text-esa-purple">A platform where professionals can engage in creating and exchanging brand new ideas by collaborating with like minded individuals.</p>
+		<!-- <a class="inline-block bg-esa-purple text-white font-semibold text-lg py-4 px-16 rounded-full hover:shadow-xl" href="training.html">See Courses</a> -->
+	</div>
+	<div class="max-w-xl">
+		<lottie-player src="/dist/lottie/56651-rocket-0302145678.json" background="transparent"  speed="1"  style="width: auto; height: auto;" loop autoplay></lottie-player>
+	</div>
+  </section>
+  <!-- Mission -->
+  <section class="bg-esa-gray py-16">
+	<div class="px-8 xl:container m-auto flex flex-col md:flex-row justify-center items-center">
+		<div>
+			<lottie-player src="/dist/lottie/64202-flying-out.json" background="transparent"  speed="1"  style="width: auto; height: auto;" loop autoplay></lottie-player>
+		</div>
+		<div class="md:w-1/2 space-y-8 text-white">
+			<h1 class="text-[42px] leading-snug font-black">Our Mission</h1>
+			<p class="text-lg leading-loose">To create an industry leading, modern sales training platform that is able to fully equip new and experienced sales professionals alike with the key sales fundamentals to thrive in this new age of entrepreneurship, prospecting, and sales as a whole.</p>
+			<a class="inline-block bg-white text-esa-purple font-semibold text-lg py-4 px-16 rounded-full hover:shadow-xl" href="training.html">Learn More</a>
+		</div>
+	</div>
+  </section>
+  <!-- Vission -->
+  <section class="bg-esa-gray-light py-16">
+	<div class="px-8 xl:container m-auto flex flex-col-reverse md:flex-row justify-center items-center md:space-x-16">
+		<div class="md:w-1/2 space-y-8 text-esa-purple">
+			<h1 class="text-[42px] leading-snug font-black">Our Vission</h1>
+			<p class="text-lg leading-loose">To create a training platform that inspires individuals that want more from life to go after what they want by providing them with the necessary tools and guidance to help them get to that next level. A Launchpad for entrepreneurs. A platform where professionals can engage in creating and exchanging brand new ideas by collaborating with like minded individuals. In which our users will learn how to leverage and grow their network.</p>
+			<a class="inline-block bg-white text-esa-purple font-semibold text-lg py-4 px-16 rounded-full hover:shadow-xl" href="training.html">Learn More</a>
+		</div>
+		<div>
+			<lottie-player src="/dist/lottie/80356-online-learning.json" background="transparent"  speed="1"  style="width: auto; height: auto;" loop autoplay></lottie-player>
+		</div>
+	</div>
+  </section>
+  <!-- Available Courses -->
+  <section class="py-16">
+	  <div class="px-8 xl:container m-auto flex flex-col justify-center items-center space-y-16">
+		<h1 class="text-[42px] text-center text-esa-purple leading-snug font-black">Available Courses</h1>
+		<div class="grid md:grid-cols-2 xl:grid-cols-4">
+			<div class="flex flex-col p-4 w-full">
+				<div class="bg-esa-gray-light p-4 rounded-t-xl">
+					<lottie-player class="!h-64" src="/dist/lottie/74586-learning-concept.json" background="transparent"  speed="1"  style="width: auto; height: auto;" loop autoplay></lottie-player>
+				</div>
+				<a href="#" class="bg-esa-purple text-white px-8 py-4 space-y-2 hover:bg-esa-pink transition-colors duration-500">
+					<h4 class="text-2xl font-black uppercase">Course Title</h4>
+					<h5 class="text-sm font-bold">$20 Download</h5>
+				</a>
+			</div>
+			<div class="flex flex-col p-4 w-full">
+				<div class="bg-esa-gray-light p-4 rounded-t-xl">
+					<lottie-player class="!h-64" src="/dist/lottie/24827-learn.json" background="transparent"  speed="1"  style="width: auto; height: auto;" loop autoplay></lottie-player>
+				</div>
+				<a href="#" class="bg-esa-purple text-white px-8 py-4 space-y-2 hover:bg-esa-pink transition-colors duration-500">
+					<h4 class="text-2xl font-black uppercase">Course Title</h4>
+					<h5 class="text-sm font-bold">$20 Download</h5>
+				</a>
+			</div>
+			<div class="flex flex-col p-4 w-full">
+				<div class="bg-esa-gray-light p-4 rounded-t-xl">
+					<lottie-player class="!h-64" src="/dist/lottie/73984-girl-studying-on-laptop.json" background="transparent"  speed="1"  style="width: auto; height: auto;" loop autoplay></lottie-player>
+				</div>
+				<a href="#" class="bg-esa-purple text-white px-8 py-4 space-y-2 hover:bg-esa-pink transition-colors duration-500">
+					<h4 class="text-2xl font-black uppercase">Course Title</h4>
+					<h5 class="text-sm font-bold">$20 Download</h5>
+				</a>
+			</div>
+			<div class="flex flex-col p-4 w-full">
+				<div class="bg-esa-gray-light p-4 rounded-t-xl">
+					<lottie-player class="!h-64" src="/dist/lottie/79960-learning.json" background="transparent"  speed="1"  style="width: auto; height: auto;" loop autoplay></lottie-player>
+				</div>
+				<a href="#" class="bg-esa-purple text-white px-8 py-4 space-y-2 hover:bg-esa-pink transition-colors duration-500">
+					<h4 class="text-2xl font-black uppercase">Course Title</h4>
+					<h5 class="text-sm font-bold">$20 Download</h5>
+				</a>
+			</div>
+		</div>
+		<a class="inline-block bg-esa-purple text-white font-semibold text-lg py-4 px-16 rounded-full hover:shadow-xl" href="training.html">See Courses</a>
+	  </div>
+  </section>
+  <!-- Statistics -->
+  <section class="bg-esa-purple text-white">
+	<div class="px-8 xl:container m-auto py-32 grid sm:grid-cols-2 xl:grid-cols-4 gap-12 justify-center items-start text-center xl:space-x-24">
+		<div class="flex justify-center flex-col xl:w-64">
+		  <img class="h-24 mb-4" src="/dist/img/icon-student.svg" alt="">
+		  <h4 class="text-4xl font-black">5,679</h4>
+		  <p class="text-sm">Registered Students</p>
+		</div>
+		<div class="flex justify-center flex-col xl:w-64">
+		  <img class="h-24 mb-4" src="/dist/img/icon-certificate.svg" alt="">
+		  <h4 class="text-4xl font-black">2,679</h4>
+		  <p class="text-sm">Certified Students</p>
+		</div>
+		<div class="flex justify-center flex-col xl:w-64">
+		  <img class="h-24 mb-4" src="/dist/img/icon-eyes.svg" alt="">
+		  <h4 class="text-4xl font-black">10,000</h4>
+		  <p class="text-sm">Watched Hours</p>
+		</div>
+		<div class="flex justify-center flex-col xl:w-64">
+			<img class="h-24 mb-4" src="/dist/img/icon-stamp.svg" alt="">
+			<h4 class="text-4xl font-black">#10</h4>
+			<p class="text-sm">Ranked #10 Training Program</p>
+		</div>
+	</div>
+  </section>
+  <!-- Book now -->
+  <section class="bg-esa-gray-light py-16">
+	<div class="px-8 xl:container m-auto flex flex-col-reverse md:flex-row justify-center items-center md:space-x-16">
+		<div class="md:w-1/2 space-y-8 text-esa-purple">
+			<h1 class="text-[42px] leading-snug font-black">Book a Training Online</h1>
+			<p class="text-lg leading-loose">To create a training platform that inspires individuals that want more from life to go after what they want. </p>
+			<a class="inline-block bg-white text-esa-purple font-semibold text-lg py-4 px-16 rounded-full hover:shadow-xl" href="signup.html">Signup Now</a>
+		</div>
+		<div>
+			<lottie-player src="/dist/lottie/67928-studyly.json" background="transparent"  speed="1"  style="width: auto; height: auto;" loop autoplay></lottie-player>
+		</div>
+	</div>
+  </section>
+  <footer class="bg-esa-gray-dark">
+	<div class="px-8 xl:container py-16 m-auto grid grid-cols-1 lg:grid-cols-4">
+		<img class="logo h-40" src="/dist/img/logo square.svg" alt="">
+		<div>
+			<h3 class="text-3xl font-bold text-esa-pink mb-8">Quicklinks</h3>
+			<nav class="text-lg text-white flex flex-col space-y-2">
+				<a href="index.html">Home</a>
+				<a href="training.html">Training & Services</a>
+				<a href="about.html">About</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+		</div>
+		<div>
+			<h3 class="text-3xl font-bold text-esa-pink mb-8">Contact Us</h3>
+			<nav class="text-lg text-white flex flex-col space-y-2">
+				<a href="tel:(+55) 254. 254. 254">(+55) 254. 254. 254				</a>
+				<a href="mailto:Info@evolutionsales.com">Info@evolutionsales.com</a>
+				<p>Ontario Canada</p>
+			</nav>
+		</div>
+		<div>
+			<h3 class="text-3xl font-bold text-esa-pink mb-8">Subscribe to Our Sales Academy Newsletter</h3>
+			<div class="relative">
+				<div class="absolute top-4 left-3">
+					<i class="fa fa-search text-gray-400 z-20 hover:text-gray-500"></i>
+				</div>
+				<input type="email" class="h-[58px] w-full pl-10 pr-20 rounded-full z-0 focus:shadow focus:outline-none" placeholder="Email">
+				<div class="absolute top-[1px] right-[1px]"> 
+					<button class="h-14 px-10 text-white rounded-full bg-esa-pink hover:bg-esa-purple">Submit</button> 
+				</div>
+			</div>
+		</div>
+	</div>
+  </footer>
+  <div class="bg-esa-black text-white">
+	  <footer class="px-8 xl:container m-auto py-3"><p>All Right Reserved | Evolution Sales Academy 2022</p></footer>
+  </div>
+</body>
+<script src="/dist/script.js"></script>
+</html>

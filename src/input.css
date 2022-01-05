@@ -1,0 +1,11 @@
+@import url('/dist/fonts/stylesheet.css');
+.active {
+    color: rgb(245, 134, 38);
+}
+.mobile-menu a:hover, .mobile-menu .active, .mobile-menu .active a  {
+    background-color: rgb(245, 134, 38);
+    color: #ffffff;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
