@@ -55,13 +55,13 @@
   </header>
   <!-- Hero -->
   <section class="px-8 bg-esa-purple text-white">
-	<div class="xl:container m-auto flex flex-col-reverse lg:flex-row justify-between items-center py-16">
+    <div class="px-8 xl:container m-auto flex flex-col-reverse lg:flex-row justify-between items-center py-16">
         <div class="lg:w-2/5 space-y-12">
             <h1 class="text-5xl leading-snug font-black text-white">We offer new courses</h1>
             <p class="text-xl text-white">The aim of this course is to provide students with the knowledge, understanding and the skills necessarily.</p>
             <a class="inline-block bg-esa-orange text-white font-semibold py-4 px-16 rounded-full hover:shadow-xl" href="forum.html">See Forum</a>
         </div>
-        <div class="xl:w-2/5">
+        <div class="lg:w-1/4">
             <lottie-player src="/dist/lottie/75159-connected-concept-illustration.json" background="transparent"  speed="1"  style="width: auto; height: auto;" loop autoplay></lottie-player>
         </div>
     </div>
@@ -144,7 +144,7 @@
                     <!-- date picker -->
                     <div class="text-xl space-y-2">
                         <div class="flex items-center h-full">
-                            <link
+                            <!-- <link
                               rel="stylesheet"
                               href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
                             />
@@ -157,7 +157,7 @@
                               [x-cloak] {
                                 display: none;
                               }
-                            </style>
+                            </style> -->
                           
                             <div class="antialiased">
                               <div x-data="app()" x-init="[initDate(), getNoOfDays()]" x-cloak>
@@ -190,7 +190,7 @@
                                         placeholder="Select date"
                                       />
                           
-                                      <div class="absolute top-0 right-0 px-3 py-2">
+                                      <!-- <div class="absolute top-0 right-0 px-3 py-2">
                                         <svg
                                           class="h-6 w-6 text-gray-400"
                                           fill="none"
@@ -204,13 +204,13 @@
                                             d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
                                           />
                                         </svg>
-                                      </div>
+                                      </div> -->
                           
                                       <!-- <div x-text="no_of_days.length"></div>
                                                   <div x-text="32 - new Date(year, month, 32).getDate()"></div>
                                                   <div x-text="new Date(year, month).getDay()"></div> -->
                           
-                                      <div
+                                      <!-- <div
                                         class="
                                           bg-white
                                           mt-12
@@ -223,8 +223,7 @@
                                         "
                                         style="width: 17rem"
                                         x-show.transition="showDatepicker"
-                                        @click.away="showDatepicker = false"
-                                      >
+                                        @click.away="showDatepicker = false">
                                         <div class="flex justify-between items-center mb-2">
                                           <div>
                                             <span
@@ -335,7 +334,6 @@
                                                 class="
                                                   cursor-pointer
                                                   text-center text-sm
-                                                  leading-none
                                                   rounded-full
                                                   leading-loose
                                                   transition
@@ -347,7 +345,7 @@
                                             </div>
                                           </template>
                                         </div>
-                                      </div>
+                                      </div> -->
                                     </div>
                                   </div>
                                 </div>
@@ -479,12 +477,12 @@
   <!-- Book now -->
   <section class="bg-esa-gray-light py-16">
 	<div class="px-8 xl:container m-auto flex flex-col-reverse lg:flex-row justify-center items-center md:space-x-16">
-		<div class="md:w-1/2 space-y-8 text-esa-purple">
+		<div class="space-y-8 text-esa-purple">
 			<h1 class="text-[32px] leading-snug font-black">Book a Training Online</h1>
 			<p class="leading-loose">To create a training platform that inspires individuals that want more from life to go after what they want. </p>
 			<a class="inline-block bg-white text-esa-purple font-semibold py-4 px-16 rounded-full hover:shadow-xl" href="signup.html">Signup Now</a>
 		</div>
-		<div>
+		<div class="lg:w-1/3">
 			<lottie-player src="/dist/lottie/67928-studyly.json" background="transparent"  speed="1"  style="width: auto; height: auto;" loop autoplay></lottie-player>
 		</div>
 	</div>

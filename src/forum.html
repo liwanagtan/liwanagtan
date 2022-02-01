@@ -9,8 +9,8 @@
 <body class="font-main">
 	<header class="bg-esa-gray-dark mb-8">
 		<!-- desktop -->
-		<div class="h-[114px] xl:container px-8 m-auto justify-between items-center  text-white font-bold uppercase hidden lg:flex">
-			<img class="logo h-16" src="/dist/img/logo long.svg" alt="">
+		<div class="h-[114px] lg:container px-8 m-auto justify-between items-center  text-white font-bold uppercase flex">
+			<img class="logo h-8 sm:h-16" src="/dist/img/logo long.svg" alt="">
 			<div class="flex justify-center items-center space-x-8">
 				<div class="relative cursor-pointer">
 					<div class="absolute -top-1 -right-2 text-[8px] border-[2px] border-esa-gray-dark rounded-full bg-esa-pink h-4 w-4 text-center justify-center flex items-center">2</div>
@@ -22,21 +22,21 @@
 			</div>
 		</div>
 	  </header>
-  <!-- Hero -->
-  <section class="rounded bg-esa-purple container m-auto flex justify-between items-center p-8 shadow-lg">
+  <!-- Bar -->
+  <section class="lg:rounded bg-esa-purple lg:container m-auto flex justify-between items-center p-8 shadow-lg">
 	<!-- <div class="bg-esa-purple rounded-3xl h-16 w-full text-white flex items-center">asd</div> -->
-	<div class="flex text-white  space-x-8 items-center">
-		<div class="bg-esa-orange py-2 px-8 rounded-full">Categories</div>
+	<div class="flex text-white  sm:space-x-8 items-center">
+		<div class="bg-esa-orange py-2 px-8 rounded-full hidden sm:flex">Categories</div>
 		<div class="underline underline-offset-2 decoration-dotted">Boards</div>
 	</div>
-	<div class="bg-esa-blue text-white rounded-full h-12 flex space-x-4 items-center cursor-pointer">
-		<span class="bg-white rounded-full w-12 h-12 text-esa-blue flex items-center justify-center">+</span> 
-		<span class=pr-12>Start new topic</span>
+	<div class="bg-esa-blue text-white rounded-full h-12 flex md:space-x-4 items-center cursor-pointer pl-4 md:pl-0">
+		<span class="bg-white rounded-full w-12 h-12 text-esa-blue hidden md:flex items-center justify-center">+</span> 
+		<span class="pr-4">Start new topic</span>
 	</div>
   </section>
 
-  <!-- table -->
-  <section class="container m-auto flex flex-col p-8">
+  <!-- table desktop -->
+  <section class="lg:container m-auto hidden md:flex flex-col p-8">
 	<!-- Header -->
 	<ul class="flex mb-8">
 		<li class="w-7/12">Topic</li>
@@ -138,6 +138,139 @@
 			<!-- replies -->
 			<div class="w-1/12">
 				<p class="cursor-pointer hover:text-esa-orange text-sm">24 Answers</p>
+			</div>
+		</div>
+	</div>
+  </section>	
+
+  <!-- table small screen -->
+  <section class="lg:container m-auto md:hidden flex flex-col p-8">
+	<!-- Body -->
+	<div class="space-y-4">
+		<!-- item -->
+		<div class="flex flex-col border-b-2 border-gray-100 py-5 space-y-6 bg-gray-100 rounded-lg p-6">
+			<!-- topic -->
+			<div class="cursor-pointer hover:text-esa-orange text-xl"><a href="topic.html">Welcome to Evelotion Sales Academy</a></div>
+			<div class="flex items-center justify-between">
+				<!-- following -->
+				<div class="flex -space-x-2">
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div class="cursor-pointer hover:bg-esa-orange hover:text-white h-12 w-12 rounded-full flex justify-center items-center text-[16px] leading-[16px] border-2 bg-gray-100 border-white">...</div>
+				</div>
+				<!-- replies -->
+				<div class="">
+					<p class="cursor-pointer hover:text-esa-orange text-lg">24 Answers</p>
+				</div>
+			</div>
+		</div>
+		<!-- item -->
+		<div class="flex flex-col border-b-2 border-gray-100 py-5 space-y-6 bg-gray-100 rounded-lg p-6">
+			<!-- topic -->
+			<div class="cursor-pointer hover:text-esa-orange text-xl"><a href="topic.html">Welcome to Evelotion Sales Academy</a></div>
+			<div class="flex items-center justify-between">
+				<!-- following -->
+				<div class="flex -space-x-2">
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div class="cursor-pointer hover:bg-esa-orange hover:text-white h-12 w-12 rounded-full flex justify-center items-center text-[16px] leading-[16px] border-2 bg-gray-100 border-white">...</div>
+				</div>
+				<!-- replies -->
+				<div class="">
+					<p class="cursor-pointer hover:text-esa-orange text-lg">24 Answers</p>
+				</div>
+			</div>
+		</div>
+		<!-- item -->
+		<div class="flex flex-col border-b-2 border-gray-100 py-5 space-y-6 bg-gray-100 rounded-lg p-6">
+			<!-- topic -->
+			<div class="cursor-pointer hover:text-esa-orange text-xl"><a href="topic.html">Welcome to Evelotion Sales Academy</a></div>
+			<div class="flex items-center justify-between">
+				<!-- following -->
+				<div class="flex -space-x-2">
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div class="cursor-pointer hover:bg-esa-orange hover:text-white h-12 w-12 rounded-full flex justify-center items-center text-[16px] leading-[16px] border-2 bg-gray-100 border-white">...</div>
+				</div>
+				<!-- replies -->
+				<div class="">
+					<p class="cursor-pointer hover:text-esa-orange text-lg">24 Answers</p>
+				</div>
+			</div>
+		</div>
+		<!-- item -->
+		<div class="flex flex-col border-b-2 border-gray-100 py-5 space-y-6 bg-gray-100 rounded-lg p-6">
+			<!-- topic -->
+			<div class="cursor-pointer hover:text-esa-orange text-xl"><a href="topic.html">Welcome to Evelotion Sales Academy</a></div>
+			<div class="flex items-center justify-between">
+				<!-- following -->
+				<div class="flex -space-x-2">
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div class="cursor-pointer hover:bg-esa-orange hover:text-white h-12 w-12 rounded-full flex justify-center items-center text-[16px] leading-[16px] border-2 bg-gray-100 border-white">...</div>
+				</div>
+				<!-- replies -->
+				<div class="">
+					<p class="cursor-pointer hover:text-esa-orange text-lg">24 Answers</p>
+				</div>
+			</div>
+		</div>
+		<!-- item -->
+		<div class="flex flex-col border-b-2 border-gray-100 py-5 space-y-6 bg-gray-100 rounded-lg p-6">
+			<!-- topic -->
+			<div class="cursor-pointer hover:text-esa-orange text-xl"><a href="topic.html">Welcome to Evelotion Sales Academy</a></div>
+			<div class="flex items-center justify-between">
+				<!-- following -->
+				<div class="flex -space-x-2">
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div class="cursor-pointer hover:bg-esa-orange hover:text-white h-12 w-12 rounded-full flex justify-center items-center text-[16px] leading-[16px] border-2 bg-gray-100 border-white">...</div>
+				</div>
+				<!-- replies -->
+				<div class="">
+					<p class="cursor-pointer hover:text-esa-orange text-lg">24 Answers</p>
+				</div>
+			</div>
+		</div>
+		<!-- item -->
+		<div class="flex flex-col border-b-2 border-gray-100 py-5 space-y-6 bg-gray-100 rounded-lg p-6">
+			<!-- topic -->
+			<div class="cursor-pointer hover:text-esa-orange text-xl"><a href="topic.html">Welcome to Evelotion Sales Academy</a></div>
+			<div class="flex items-center justify-between">
+				<!-- following -->
+				<div class="flex -space-x-2">
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div><img class="cursor-pointer hover:border-esa-orange h-12 w-12 block rounded-full border-2 border-white" src="/dist/img/avatar.png" alt=""></div>
+					<div class="cursor-pointer hover:bg-esa-orange hover:text-white h-12 w-12 rounded-full flex justify-center items-center text-[16px] leading-[16px] border-2 bg-gray-100 border-white">...</div>
+				</div>
+				<!-- replies -->
+				<div class="">
+					<p class="cursor-pointer hover:text-esa-orange text-lg">24 Answers</p>
+				</div>
 			</div>
 		</div>
 	</div>
